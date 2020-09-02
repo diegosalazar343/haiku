@@ -1,11 +1,7 @@
-Specs: Haiku needs to have three lines of input
-
-Specs: line 1 needs 5 syllables
-
-Specs: line 2 needs 7 syllables
-
-Specs: line 3 needs 5 syllables
-
 Specs: Need to count syllables by counting the vowel sounds
+Input: "Cat" "total" "Rainbow"
+Output:"1"  "2"  "2"
 
 Specs: include exceptions to the rule.
+Input: "called" "barked"
+Output: "1"  "1"
