@@ -1,5 +1,11 @@
 // Interface Logic
-$(document).ready(funciton() {
+import Haiku from './haiku.js';
+import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/styles.css';
+
+$(document).ready(function() {
   $('#haiku-checker-form').submit(function(event) {
     event.preventDefault();
     let line1 = $('#line1').val();
